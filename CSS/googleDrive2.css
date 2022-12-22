@@ -1,0 +1,175 @@
+/* Middle Navigation */
+.container2 {
+    position: fixed;
+    padding: 3px 558px;
+    border-bottom: 1px solid #dee0e3;
+    left: 257px;
+    top: 67px;
+    height: 40px;
+}
+
+#down-arrow {
+    background: transparent;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.button2 {
+    position: relative;
+    left: -549px;
+    top: 1px;
+}
+
+.button-text2 {
+    font-size: 18px;
+    padding: 0;
+    width: 110px;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button2 :hover {
+    background-color: #f1f3f4;
+    cursor: pointer;
+}
+
+.sec-header {
+    position: relative;
+    padding: 0;
+    background: transparent;
+    top: -30px;
+    right: -569px;
+}
+
+.two-items {
+    list-style: none;
+    position: absolute;
+    right: 76px;
+    top: -7px;
+    background: transparent;
+}
+.info {
+    list-style: none;
+    position: absolute;
+    right: 28px;
+    top: -7px;
+    background: transparent;
+}
+.two-items :hover, .info :hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Side Navigation Bar */
+.container3 {
+    position: fixed;
+    padding: 100% 14px;
+    border-left: 1px solid #dee0e3;
+    right: 0;
+}
+
+.side-nav-right {
+    list-style: none;
+    position: absolute;
+    top: 15px;
+}
+
+.img-side {
+    height: 25px;
+    width: auto;
+}
+
+#img1 {
+    position: relative;
+    top: 25px;
+}
+
+#img2 {
+    position: relative;
+    top: 55px;
+    height: 20px;
+    right: -3px;
+}
+
+.hr1 {
+    position: relative;
+    top: -1299px;
+}
+
+#add {
+    position: relative;
+    top: -1263px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Main Body */
+.main {
+    position: relative;
+    left: 536px;
+    top: 323px;
+    width: 0;
+}
+
+#folder-icon {
+    background: transparent;
+    position: relative;
+    left: -40px;
+    top: 8px;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.folder-text {
+    position: relative;
+    left: -257px;
+    top: -259px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Folders */
+.container-folder {
+    position: relative;
+    padding: 3px;
+    width: 600px;
+    height: 88px;
+    left: -281px;
+    top: -240px;
+
+}
+
+.list-folder {
+    display: inline;
+    padding: 0px 5px;
+    list-style: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.link-folder {
+    text-decoration: none;
+    padding: 15px 56px;
+    border: 1px solid #5f6368;
+    border-radius: 6px;
+}
+
+.text-folders {
+    position: relative;
+    left: -23px;
+    background: transparent;
+}
+
+.list-folder :hover {
+    background-color: #f0f0f0;
+    cursor: default;
+}
